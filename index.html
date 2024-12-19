@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Skip Counting by 10s</div>
+          <div class="lesson-content">
+            <div>
+              
+              <p style="text-align: center;font-size: 1.6rem;">
+                Look at the given picture, here are a few group bowling pins
+              </p>
+              <br>
+              <img src="./images/1.png" alt="" width="40%">
+              <br>
+              
+              <p style="text-align: center;font-size: 1.6rem;">
+                <b>Each group has 10 bowling pins.</b>
+                <BR>So to find the total number of bowling pins quickly we will skip count by 10.
+ 
+              </p>
+              <br>
+              <img src="./images/2.png" alt="" width="40%">
+              <br>
+              <p style="text-align: center;font-size: 1.6rem;">Therefore, there are 40 bowling pins in total.</p>
+              <br>
+              
+                <hr>
+                <h2 style="text-align: center;">Skip counting by 10s using the number line:</h2>
+                <p>
+                  <b>Here we skip nine numbers and jump to the tenth number.</b>
+                </p>
+                <h3>Look at the Rabbit</h3>
+                <img src="./images/1.gif" alt="" width="80%">
+                <br>
+                <hr>
+                <h2 style="text-align: center;">Counting Backwards by 10s</h2>
+                <p style="text-align: center; font-size: 1.6rem;">
+                  When we skip count backwards by 10s, we subtract 1 from the tens digit while keeping the other digits the same.
+                  <br><br>If we want to skip count backward by 10s starting from 80:
+                  <br><img src="./images/3.png" alt="" width="80%">
+                  <br><br><b>Start with 80. The tens digit is 8. Subtract 1 from it, and you get 70.</b><br>
+                  <img src="./images/1.jpg" alt="" width="50%">
+                  <br><br><b>Next, subtract 1 from the new tens digit (7), and you get 60.</b><br>
+                  <img src="./images/2.jpg" alt="" width="50%">
+                  <br><br><b>Subtract 1 again from the tens digit (6), and you get 50</b><br>
+                  <img src="./images/3.jpg" alt="" width="50%">
+                </p><br>
+                <h2 style="text-align: center;">So the pattern looks like this:</h2><br>
+                <img src="./images/4.png" alt="" width="80%">
+              
+          
+             
+          </div>
+          
+        
+        
+        
+      </div>
+      
+    </div>
+  </body>
+</html>
